@@ -1,33 +1,33 @@
 "use strict";
 
-exports.identifier = function (t) {
+export var identifier = function (t) {
   return t.identifier;
 };
 
-exports.screenX = function (t) {
+export var screenX = function (t) {
   return t.screenX;
 };
 
-exports.screenY = function (t) {
+export var screenY = function (t) {
   return t.screenY;
 };
 
-exports.clientX = function (t) {
+export var clientX = function (t) {
   return t.clientX;
 };
 
-exports.clientY = function (t) {
+export var clientY = function (t) {
   return t.clientY;
 };
 
-exports.pageX = function (t) {
+export var pageX = function (t) {
   return t.pageX;
 };
 
-exports.pageY = function (t) {
+export var pageY = function (t) {
   return t.pageY;
 };
 
-exports.target = function (t) {
+export var target = function (t) {
   return t.target;
 };

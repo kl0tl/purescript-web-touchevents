@@ -1,29 +1,29 @@
 "use strict";
 
-exports.touches = function (e) {
+export var touches = function (e) {
   return e.touches;
 };
 
-exports.targetTouches = function (e) {
+export var targetTouches = function (e) {
   return e.targetTouches;
 };
 
-exports.changedTouches = function (e) {
+export var changedTouches = function (e) {
   return e.changedTouches;
 };
 
-exports.altKey = function (e) {
+export var altKey = function (e) {
   return e.altKey;
 };
 
-exports.metaKey = function (e) {
+export var metaKey = function (e) {
   return e.metaKey;
 };
 
-exports.ctrlKey = function (e) {
+export var ctrlKey = function (e) {
   return e.ctrlKey;
 };
 
-exports.shiftKey = function (e) {
+export var shiftKey = function (e) {
   return e.shiftKey;
 };
